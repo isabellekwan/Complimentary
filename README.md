@@ -2,6 +2,7 @@
 
 ## Description
 This Chrome browser extension gives you random motivational quotes and phrases throughout the day.
+(The extension has two files "compliment.js" and "inpsirational.js" that can be swapped depending on messages wanting to be received)
 
 ## Installation
 Follow these steps to install the extension:
