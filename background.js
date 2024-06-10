@@ -3,7 +3,7 @@ chrome.runtime.onInstalled.addListener(() => {
     console.log("onInstalled...");
   
     // create alarm after extension is installed / upgraded
-    chrome.alarms.create("startRequest", { periodInMinutes: 4});
+    chrome.alarms.create("startRequest", { periodInMinutes: 10});
     startRequest();
 });
   
