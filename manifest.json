@@ -1,0 +1,18 @@
+{ 
+    "name": "Complimentary - Chrome Extension",
+    "description": "A Chrome Extension that randomly displays compliments and motivational comments to user to boost confidence and moral",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "alarms", "notifications"],
+    "action": {
+        "default_icon": {
+            "96": "heart-icon.png"
+        }
+    },
+    "icons": {
+        "96": "heart-icon.png"
+    }
+}
