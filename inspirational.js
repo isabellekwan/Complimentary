@@ -22,7 +22,7 @@ async function startRequest() {
       message: data,
       iconUrl: "/heart-icon.png",
       type: "basic",
-      // requireInteraction: true
+
     };
     chrome.notifications.create("", options);
   }
